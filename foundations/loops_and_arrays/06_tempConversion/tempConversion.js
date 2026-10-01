@@ -1,6 +1,8 @@
 const convertToCelsius  = function(TempF) {
   let C = (TempF - 32) * 5/9
-    return C
+  var rounded = Math.round(C * 10) / 10  
+  return rounded
+
 
 
 
@@ -16,7 +18,8 @@ const convertToCelsius  = function(TempF) {
 
 const convertToFahrenheit = function(tempC) {
   let F = ((9 * tempC) / 5) + 32
-    return F
+    var rounded = Math.round(F * 10) / 10
+    return rounded
 
 
 
